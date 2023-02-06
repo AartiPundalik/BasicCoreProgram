@@ -21,8 +21,13 @@ namespace BasicCoreProgram
                         FlipCoin flip = new FlipCoin();
                         flip.coin();
                         break;
-                }
-                Console.ReadLine();
+                case 2:
+                    LeapYear leap = new LeapYear();
+                    leap.Leap();
+                    break;
+
+            }
+            Console.ReadLine();
             }
         }
     }
