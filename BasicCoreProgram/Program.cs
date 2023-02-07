@@ -25,6 +25,14 @@ namespace BasicCoreProgram
                     LeapYear leap = new LeapYear();
                     leap.Leap();
                     break;
+                case 3:
+                    PowerOfTwo power = new PowerOfTwo();
+                    power.Power();
+                    break;
+                case 4:
+                    HarmonicNum Harmonic = new HarmonicNum();
+                    Harmonic.Harmonic();
+                    break;
 
             }
             Console.ReadLine();
