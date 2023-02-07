@@ -41,6 +41,10 @@ namespace BasicCoreProgram
                     QR checkQR = new QR();
                     checkQR.checkQR();
                     break;
+                case 7:
+                    Swap checkswap = new Swap();
+                    checkswap.checkswap();
+                    break;
             }
             Console.ReadLine();
             }
