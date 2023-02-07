@@ -9,7 +9,7 @@ namespace BasicCoreProgram
     internal class Swap
     {
 
-        public static void checkswap()
+        public  void checkswap()
         {
             int num1, num2, temp;
 

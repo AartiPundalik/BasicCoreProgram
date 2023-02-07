@@ -8,7 +8,7 @@ namespace BasicCoreProgram
 {
     internal class QR
     {
-        public static void CheckQR()
+        public  void CheckQR()
         {
             int dividend = 50, divisor = 8;
 

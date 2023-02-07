@@ -39,11 +39,15 @@ namespace BasicCoreProgram
                     break;
                 case 6:
                     QR checkQR = new QR();
-                    checkQR.checkQR();
+                    checkQR.CheckQR();
                     break;
                 case 7:
                     Swap checkswap = new Swap();
                     checkswap.checkswap();
+                    break;
+                case 8:
+                    EvenAndOdd Checkevenorodd = new EvenAndOdd();
+                    Checkevenorodd.Checkevenorodd();
                     break;
             }
             Console.ReadLine();
