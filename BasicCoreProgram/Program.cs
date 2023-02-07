@@ -37,7 +37,10 @@ namespace BasicCoreProgram
                     Factors checkfactors = new Factors();
                     checkfactors.checkfactors();
                     break;
-
+                case 6:
+                    QR checkQR = new QR();
+                    checkQR.checkQR();
+                    break;
             }
             Console.ReadLine();
             }
