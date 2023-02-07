@@ -53,6 +53,12 @@ namespace BasicCoreProgram
                     Alphabet checkVowelsOrConstant = new Alphabet();
                     checkVowelsOrConstant.checkVowelsOrConstant();
                     break;
+                case 10:
+                    Largest checkLargestNumber = new Largest();
+                    checkLargestNumber.checkLargestNumber();
+                    break;
+
+
             }
             Console.ReadLine();
             }
