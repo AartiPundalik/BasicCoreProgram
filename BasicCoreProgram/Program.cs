@@ -49,6 +49,10 @@ namespace BasicCoreProgram
                     EvenAndOdd Checkevenorodd = new EvenAndOdd();
                     Checkevenorodd.Checkevenorodd();
                     break;
+                    case 9:
+                    Alphabet checkVowelsOrConstant = new Alphabet();
+                    checkVowelsOrConstant.checkVowelsOrConstant();
+                    break;
             }
             Console.ReadLine();
             }
