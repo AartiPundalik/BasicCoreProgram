@@ -33,6 +33,10 @@ namespace BasicCoreProgram
                     HarmonicNum Harmonic = new HarmonicNum();
                     Harmonic.Harmonic();
                     break;
+                case 5:
+                    Factors checkfactors = new Factors();
+                    checkfactors.checkfactors();
+                    break;
 
             }
             Console.ReadLine();
